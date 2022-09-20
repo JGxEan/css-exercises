@@ -1,0 +1,11 @@
+/* style.css for 02-css-methods/index.html */
+
+div p {
+  color: red;
+  background-color: yellow;
+}
+
+.container .text {
+  font-size: 20px;
+  text-align: center;
+}
