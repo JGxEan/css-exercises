@@ -1,0 +1,17 @@
+/* style.css for 03-css-methods/index.html */
+
+.black_button,
+.yellow_button {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.black_button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
+}
+
+.yellow_button {
+    background-color: #ffff00;
+}
+    
