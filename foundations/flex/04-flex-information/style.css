@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center; 
+  /* I moved text-align here because I liked how 
+  the solution used this to simplify the code*/
 }
 
 img {
@@ -10,6 +13,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  /* this allows me to use one flex container
+  for the entire page by making the title an 
+  item that takes up all it's horizontal space 
+  in a flex-wrap container */
+  flex-basis: 100%;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.item {
+  max-width: 200px;
 }
 
 /* do not edit this footer */
